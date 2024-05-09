@@ -1,6 +1,6 @@
-# Hugo Example
+# Cabbbage 开笔记
 
-This directory is a brief example of a [Hugo](https://gohugo.io/) app that can be deployed to Vercel with zero configuration.
+一个又卷又菜的笔记软件
 
 ## Deploy Your Own
 
