@@ -4,6 +4,6 @@
 
 ## 下载地址
 
-[![下载](https://ixxj.com)](https://ixxj.com/download)
+[![下载](https://vercel.com/button)](https://ixxj.com/download)
 
 官网：[ixxj.com](https://ixxj.com)
