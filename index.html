@@ -1,10 +1,10 @@
 <html>
 
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/favicon/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
   <title>Cabbbage 开笔记</title>
   <style>
     html {
@@ -30,6 +30,17 @@
       margin-top: 3.5vh
     }
 
+    span {
+      display: block;
+      margin-top: 2vh;
+      font-size: 2.8vmin;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
     button {
       background-color: #4CAF50;
       margin-top: 2vh;
@@ -41,28 +52,37 @@
       width: 25vmin;
       cursor: pointer;
     }
-
-    a {
-      text-decoration: none;
-      color: black;
-      margin-top: 2vh;
-    }
   </style>
 </head>
 
 <body>
   <img src="cabbbage.png" />
   <div>Cabbbage「开笔记」</div>
-  <a href="https://lintex.notion.site/8c5fd0d6c0af48efa21f7970599425f5?pvs=4">最新版本：0.1.0.240611 更新内容</a>
+  <span>最新版本：0.1.0.240611 <a href="https://lintex.notion.site/8c5fd0d6c0af48efa21f7970599425f5?pvs=4">更新内容</a></span>
   <button type="button" onclick="window.location.href='https://www.123pan.com/s/fQ8gjv-r6fSh.html'">下 载</button>
   <script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    // 定义API的URL
+    const apiUrl = 'https://cabbbage.pages.dev/hello';
+
+    // 使用fetch API发起GET请求
+    fetch(apiUrl)
+      .then(response => {
+        // 确保响应成功
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json(); // 解析JSON格式的响应数据
+      })
+      .then(data => {
+        // 这里处理API返回的数据
+        console.log(data);
+      })
+      .catch(error => {
+        // 处理任何错误
+        console.error('There has been a problem with your fetch operation:', error);
+      });
   </script>
-  <script defer src="/_vercel/insights/script.js"></script>
-  <script>
-    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-  </script>
-  <script defer src="/_vercel/speed-insights/script.js"></script>
+
 </body>
 
 </html>
