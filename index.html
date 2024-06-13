@@ -61,13 +61,9 @@
   <span>最新版本：0.1.0.240611 <a href="https://lintex.notion.site/8c5fd0d6c0af48efa21f7970599425f5?pvs=4">更新内容</a></span>
   <button type="button" onclick="window.location.href='https://www.123pan.com/s/fQ8gjv-r6fSh.html'">下 载</button>
   <script>
-    // 定义API的URL
-    const apiUrl = 'https://cabbbage.pages.dev/hello';
-
-    // 使用fetch API发起GET请求
+    const apiUrl = 'https://cabbbage.vercel.app/api/hello.js';
     fetch(apiUrl)
       .then(response => {
-        // 确保响应成功
         if (!response.ok) {
           throw new Error('Network response was not ok ' + response.statusText);
         }
@@ -78,7 +74,6 @@
         console.log(data);
       })
       .catch(error => {
-        // 处理任何错误
         console.error('There has been a problem with your fetch operation:', error);
       });
   </script>
