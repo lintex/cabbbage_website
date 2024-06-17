@@ -21,13 +21,15 @@ hero:
       link: /changelog
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📝
+    title: 快捷操作
+    details: 人性化设计，可以快速添加笔记，第一时间记录你的想法...
+  - icon: 🔐
+    title: 数据安全
+    details: 数据本地存储，保护隐私，安全，速度快
+  - icon: 🗂️
+    title: 卡片关联
+    details: 以卡片形式组织数据，支持双链、超级标签，导出精美图片
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
----
+    title: 独特个性功能
+    details: 马拉松助手、配速计算器、尺子、课程表、单词本、各种功能无限扩展...

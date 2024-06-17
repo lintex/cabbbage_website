@@ -7,6 +7,7 @@ export default defineConfig({
   description: "一个又卷又菜的笔记App",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }], ['meta', { name: 'keywords', content: 'cabbbage,开笔记,笔记App,笔记软件' }]],
   lastUpdated: true, // 显示每个页面的最后更新时间
+  lang: "zh-CN",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,8 +21,8 @@ export default defineConfig({
       {
         text: '侧边栏',
         items: [
-          { text: '下载', link: '/download' },
-          { text: '介绍', link: '/introduction' },
+          { text: '下载地址', link: '/download' },
+          { text: '功能介绍', link: '/introduction' },
           { text: '更新日志', link: '/changelog' },
         ]
       }
