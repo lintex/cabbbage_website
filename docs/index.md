@@ -11,11 +11,14 @@ hero:
     alt: cabbbage
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 下载
+      link: /download
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 功能介绍
+      link: /introduction
+    - theme: alt
+      text: 更新日志
+      link: /changelog
 
 features:
   - title: Feature A

@@ -11,16 +11,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '下载', link: '/markdown-examples' },
-      { text: '介绍', link: '/markdown-examples' },
+      { text: '下载', link: '/download' },
+      { text: '介绍', link: '/introduction' },
+      { text: '更新日志', link: '/changelog' },
     ],
 
     sidebar: [
       {
         text: '侧边栏',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '下载', link: '/download' },
+          { text: '介绍', link: '/introduction' },
+          { text: '更新日志', link: '/changelog' },
         ]
       }
     ],
