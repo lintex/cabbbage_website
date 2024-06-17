@@ -39,9 +39,11 @@ export default defineConfig({
     footer: {
       message: '再菜也要用❤️卷',
       copyright: 'Copyright © 2024 lintex'
-    }
+    },
 
     // 
-
+    editLink: {
+      pattern: 'https://github.com/lintex/cabbbage_website/edit/main/docs/:path'
+    }
   }
 })
