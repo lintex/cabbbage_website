@@ -6,7 +6,7 @@ export default defineConfig({
   titleTemplate: ':title | 开笔记', // 自定义标题后缀
   description: "一个又卷又菜的笔记App",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }], ['meta', { name: 'keywords', content: 'cabbbage,开笔记,笔记App,笔记软件' }]],
-  lastUpdated: true, // 显示每个页面的最后更新时间
+
   lang: "zh-CN",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -20,7 +20,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '侧边栏',
         items: [
           { text: '下载地址', link: '/download' },
           { text: '功能介绍', link: '/introduction' },
@@ -43,9 +42,23 @@ export default defineConfig({
       copyright: 'Copyright © 2024 lintex'
     },
 
-    // 
+    // lastUpdated: true,
+    // editLink: true,
+
+
     editLink: {
-      pattern: 'https://github.com/lintex/cabbbage_website/edit/main/docs/:path'
-    }
+      pattern: 'https://github.com/lintex/cabbbage_website/edit/main/docs/:path',
+      text: '编辑本页面'
+    },
+    lastUpdated: {
+      text: '更新于',
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    outline: {
+      label: '页面导航'
+    },
   }
 })
