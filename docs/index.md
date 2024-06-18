@@ -33,3 +33,18 @@ features:
   - icon: 🛠️
     title: 独特个性功能
     details: 马拉松助手、配速计算器、尺子、课程表、单词本、各种功能无限扩展...
+---
+
+<style>
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>
