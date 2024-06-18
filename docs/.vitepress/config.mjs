@@ -24,6 +24,7 @@ export default defineConfig({
           { text: '下载地址', link: '/download' },
           { text: '功能介绍', link: '/introduction' },
           { text: '更新日志', link: '/changelog' },
+          { text: '赞助打赏', link: '/donate' },
         ]
       }
     ],
