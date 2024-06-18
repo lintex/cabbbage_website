@@ -33,6 +33,9 @@ features:
   - icon: 🛠️
     title: 独特个性功能
     details: 马拉松助手、配速计算器、尺子、课程表、单词本、各种功能无限扩展...
+  - icon: 🌐
+    title: 免费开源
+    details: 永久免费，源代码公开...
 ---
 
 <style>
