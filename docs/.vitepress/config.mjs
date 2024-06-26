@@ -40,7 +40,7 @@ export default defineConfig({
     // sidebar 不显示时才会显示 footer
     footer: {
       message: '再菜也要用❤️卷',
-      copyright: 'Copyright © 2024 lintex'
+      copyright: 'Copyright © 2024 <a href=https://ixxj.com>l!ntex</a>'
     },
 
     // lastUpdated: true,
